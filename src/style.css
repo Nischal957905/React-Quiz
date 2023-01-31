@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Karla:wght@700&display=swap');
+
+/*
+font-family: 'Inter', sans-serif;
+font-family: 'Karla', sans-serif;
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #F5F7FB;
+    font-family: 'Inter', sans-serif;
+}
+
+.container-start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.startContent > h1{
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.35px;
+    line-height: 37px;
+    color: #293264;
+    padding: 4px;
+}
+
+.startContent > p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #293264;
+    margin: 7px 0px 29px 0px;
+}
+
+.startContent > button{
+    width: 193px;
+    height: 52px;
+    border: none;
+    background: #4D5B9E;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F5F7FB;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.startContent > button:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.question-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 0px 120px 0px 120px;
+}
+
+.main-question{
+    padding-top: 60px;
+}
+
+.line-divider{
+    display: block;
+    border: 0.794239px solid #DBDEF0;
+    margin:0px 0px 14.63px 0px;
+}
+
+.question-container > h2{
+    color: #293264;
+    font-family: 'Karla'  sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.answer-container{
+    display: flex;
+    padding: 13px 0px 15px 0px;
+}
+
+.answer-option{
+    display: block;
+    padding: 4px 8px 4px 8px;
+    margin-right: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10.24px;
+    color: #293264;
+    border: 1px solid #4D5B9E;
+    border-radius: 8px;
+    min-width: 80px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.answer-option:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.button-holder{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 0px 50px 0px;
+}
+
+.button-holder > button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #F5F7FB;
+    background: #4D5B9E;
+    border-radius: 10px;
+    border: none;
+    padding: 13px 25px 13px 25px;
+    cursor: pointer;
+}
+
+.button-holder > button:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.score-notify{
+    margin-right: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 15px;
+    color: #293264;
+}
+
+
+
+
